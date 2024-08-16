@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+nav li{
+    float: left;
+    margin-right: 20px;
+}
+nav li h3{
+    color: #fff;
+    font-weight: 0,700;
+    padding: 0px 30px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+li a:hover{
+    background: #fff;
+    transition: 500ms;
+    color: black;
+}
+
+section.banner{    
+    background: linear-gradient(to bottom, #8CBA2F, #8CBA2F, #fff);
+    padding: 5rem 0;
+}
+
+.containerB{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 20fr));
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBanner{
+    width: 70%;
+}
+.col2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: min(5rem, 5vw);
+    color: black;
+}
+
+/*SECCIÓN SLOGAN*/
+.slogan{
+    padding: 3rem 0;
+}
+
+.subSlogan{
+    text-align: left;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    color: #4c4c4c;
+}
+.subSlogan h2{
+    font-size: 2rem;
+    font-weight: 0,700;
+    padding-bottom: 1rem;
+}
+.subSlogan a{
+    line-height: 10px;
+    background-color: black;
+    margin: 0 50px;
+    display: flex;
+    float: right;
+    padding: 15px 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color:  white;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.subServicios p{
+    padding-right: 20rem;
+}
+
+/*SECCIÓN BENEFICIOS*/
+.beneficios{
+    margin: 3rem;
+    padding: 3rem 0;
+    border-radius: 2.5rem;
+    background-color: #eaeaea;
+}
+
+.subBeneficios{
+    text-align:center;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+.containerBeneficios{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));;
+    grid-gap: 2rem;
+}
+.boxBeneficios{
+    padding: 1.3rem 0.8rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfbfbf;
+}
+.boxBeneficios img{
+    width: 100px;
+}
+h3{
+    color:#4c4c4c;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 17px;
+}
+.boxBeneficios p{
+    text-align: center;
+    font-size: 13px;
+}
+
+/*SECCIÓN ALIADOS*/
+.aliados{
+    padding: 3rem 0;
+}
+
+.presentacionAliados{
+    text-align:center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+.presentacionAliados h2{
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+.presentacionAliados p{
+    font-size: 2rem;
+}
+.containerA{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxA{
+    padding: 1rem 1rem;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
+    background-color: #dddddd;
+}
+.boxA img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+/*SECCIÓN DESCARGA*/
+.descarga{
+    padding: 5rem 0;
+}
+
+.subDescarga{
+    text-align: left;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.imgCelular{
+    float: left;
+    padding-left: 3rem;
+    width: 35%;
+}
+.subDescarga a{
+    line-height: 30px;
+    font-size: 25px;
+    background-color: #8CBA2F;
+    margin: 30px 150px;
+    display: flex;
+    float: right;
+    padding: 15px 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color:  white;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.subDescarga p{
+    padding-left: 16rem;
+    font-size: 21px;
+    margin: 0 100px;
+    text-align: right;
+}
+
+/*REGISTRO*/
+.registro{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: .7em;
+    padding-top: 4rem;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+}
+.registro_figure{
+    overflow: hidden;
+    border-radius: 1em;
+    background-color: #fff;
+    display: flex;
+}
+.registro_image{
+    margin: auto;
+    width: 80%;
+    max-width: 60vw;
+}
+.registro_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em 1em;
+    text-align: center;
+}
+.registro_title{
+    font-size: 2.3rem;
+}
+.registro_form{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-gap: 1rem;
+}
+.registro_input{
+    width: 80%;
+    background-color: #E2E2E2;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+}
+.registro_input--send{
+    background-color: #8CBA2F;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*Pie de Pagina - Footer*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
